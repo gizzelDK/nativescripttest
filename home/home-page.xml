@@ -1,0 +1,14 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+    
+    <ActionBar>
+        <Label text="Huske Item" />
+    </ActionBar>
+
+    <StackLayout>
+        <!-- Add your page content here -->
+        <Label text="From Second activity" />
+        <Label id="fromSecond" text="{{testTxt}}" />
+        <TextField id="fromMain" />
+        <Button id="btnOk" tap="onNavigateToSecond" text="Ok" />
+    </StackLayout>
+</Page>
